@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TodoList</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <div id="date">
+        <h1>Date</h1>
+        <p></p>
+      </div>
+    </header>
+    <div id="quote">
+      <h2>Today's Quote</h2>
+      <p></p>
+    </div>
+    <div id="contents">
+      <div id="table">
+        <table>
+          <tr>
+            <td>today</td>
+            <td>weekly</td>
+            <td>monthly</td>
+          </tr>
+        </table>
+      </div>
+      <div id="today">
+        <input type="text" id="todayInput">
+            <ul id="todayList" style= "text-align: left; padding-left: 0px;">
+            </ul>
+      </div>
+      <div id="weekly">
+        <input type="text" id="weeklyInput">
+            <ul id="weeklyList" style= "text-align: left; padding-left: 0px;"></ul>
+      </div>
+      <div id="monthly">
+        <input type="text" id="monthlyInput">
+            <ul id="monthlyList" style= "text-align: left; padding-left: 0px;"></ul>
+      </div>
+    </div>
+  </div>
+  <script src="js/script.js"></script>
+</body>
+</html>

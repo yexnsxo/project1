@@ -1,0 +1,101 @@
+body {
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+  text-align: center;
+  background-color: #e7e7e7;
+}
+.container {
+  width: 1000px;
+  margin: 50px auto;
+  padding: 15px;
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.container::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+/*헤더 영역*/
+header {
+  padding: 20px 40px;
+  width: 900px;
+  height: 100px;
+  text-align: left;
+}
+#quote {
+  padding: 20px 40px;
+  width: 900px;
+  height: 100px;
+  text-align: left;
+}
+#contents {
+  align-items: center;
+}
+#table {
+  width: 900px;
+  border: 1.5px solid black;
+  border-collapse: collapse;
+  margin: auto;
+}
+td {
+  width: 298px;
+  padding: 10px;
+  text-align: center;
+  font-weight: bold;
+  font-size: 19px;
+  border-right: 1.5px solid black;
+}
+td:last-child {
+  border-right: none;
+}
+#today{
+  float: left;
+  width: 290px;
+  height: auto;
+  margin-left: 54px;
+  margin-top: 5px;
+  margin-right: 5px;
+}
+#weekly {
+  float: left;
+  width: 290px;
+  height: auto;
+  margin-left: 4px;
+  margin-top: 5px;
+  margin-right: 5px;
+}
+#monthly {
+  float: left;
+  width: 290px;
+  height: auto;
+  margin-left: 5px;
+  margin-top: 5px;
+  margin-right: 5px;
+}
+
+#today input, #weekly input, #monthly input {
+  width: 280px;
+}
+
+#today > input > ul {
+  list-style: none;
+  text-align: left;
+  margin-left: 5px;
+  margin-right: 5px;
+  padding-left: 0px;
+}
+
+#weekly > input > ul {
+  list-style: none;
+  text-align: left;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+#monthly > input > ul {
+  list-style: none;
+  text-align: left;
+  margin-left: 0px;
+}
+
