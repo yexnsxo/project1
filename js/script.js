@@ -61,7 +61,6 @@ document.getElementById("weeklyInput").addEventListener("keypress", function(eve
 document.getElementById("monthlyInput").addEventListener("keypress", function(event) {
   if (event.key === "Enter") {
     var inputValue = document.getElementById("monthlyInput").value;
-    i.innerHTML = "<span class='icon'>❄️</span> <span class='text'>" + inputValue + "</span>";
     var li = document.createElement("li");
     li.style.listStyleType = "none";
     li.innerHTML = "<span class='icon'>❄️</span> <span class='text'>" + inputValue + "</span>";
